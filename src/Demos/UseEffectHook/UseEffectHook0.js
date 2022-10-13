@@ -15,10 +15,10 @@ function UseEffectHook() {
 
 	return (
 		<div className="parent-div">
-				<div className="child-div" style={{ width: `${width}px` }}>
-					<span>{width}</span>
-				</div>
+			<div className="child-div" style={{ width: `${width}px` }}>
+				<span>{width}</span>
 			</div>
+		</div>
 	);
 }
 
