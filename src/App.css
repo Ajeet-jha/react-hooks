@@ -21,3 +21,33 @@ em {
 	border-radius: 10px;
 	background: rgba(255, 127, 80, 0.603);
 }
+
+.parent-div {
+	width: 1000px;
+	height: 50px;
+	border-radius: 20px;
+	border: 2px solid black;
+}
+.child-div {
+	background-color: blueviolet;
+	height: 49px;
+	border-radius: 25px;
+}
+
+.child-div span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.profile {
+	display: flex;
+}
+
+.profile .text {
+	line-height: 0.6;
+}
+.profile .image {
+	margin-left: 50px;
+}

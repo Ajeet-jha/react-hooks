@@ -4,10 +4,10 @@ import './App.css';
 // import { useId } from 'react';
 // import chalk from 'chalk';
 // import UseIdHook from './Components/UseIdHook';
-
 // const {log} = console;
+// import UseStateHook from './Components/UseStateHook';
 
-import UseStateHook from './Components/UseStateHook';
+import UseEffectHook from './Components/UseEffectHook';
 
 function App() {
 	// const id = useId();
@@ -19,7 +19,8 @@ function App() {
 			Learn React Hooks
 			{/* <Intro /> */}
 			{/* <UseIdHook /> */}
-			<UseStateHook />
+			{/* <UseStateHook /> */}
+			<UseEffectHook />
 		</div>
 	);
 }
