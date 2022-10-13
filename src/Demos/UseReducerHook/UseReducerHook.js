@@ -24,9 +24,8 @@ const reducer = (state, action) => {
 			return state.map((todo) => {
 				if (todo.id === action.id) {
 					return { ...todo, complete: !todo.complete };
-				} 
-					return todo;
-				
+				}
+				return todo;
 			});
 		default:
 			return state;
