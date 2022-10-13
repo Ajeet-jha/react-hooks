@@ -6,8 +6,8 @@ import './App.css';
 // import UseIdHook from './Components/UseIdHook';
 // const {log} = console;
 // import UseStateHook from './Components/UseStateHook';
-
-import UseEffectHook from './Components/UseEffectHook';
+// import UseEffectHook from './Components/UseEffectHook';
+import UseRefHook from './Components/UseRefHook';
 
 function App() {
 	// const id = useId();
@@ -20,7 +20,8 @@ function App() {
 			{/* <Intro /> */}
 			{/* <UseIdHook /> */}
 			{/* <UseStateHook /> */}
-			<UseEffectHook />
+			{/* <UseEffectHook /> */}
+			<UseRefHook />
 		</div>
 	);
 }
