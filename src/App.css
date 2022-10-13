@@ -7,3 +7,17 @@
 a {
 	color: #470aee;
 }
+
+code {
+	margin: 2px;
+	padding: 2px;
+	border-radius: 10px;
+	background: antiquewhite;
+}
+
+em {
+	margin: 2px;
+	padding: 2px;
+	border-radius: 10px;
+	background: rgba(255, 127, 80, 0.603);
+}
