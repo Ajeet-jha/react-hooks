@@ -3,11 +3,11 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 import UseEffectMarkdown from '../Markdown/UseEffect.md';
-// import UseEffectHookDemo from '../Demos/UseEffectHook/UseEffectHook';
+import UseEffectHookDemo from '../Demos/UseEffectHook/UseEffectHook';
 // import UseEffectHookDemo from '../Demos/UseEffectHook/UseEffectHook0';
 // import UseEffectHookDemo from '../Demos/UseEffectHook/UseEffectHook1';
 // import UseEffectHookDemo from '../Demos/UseEffectHook/UseEffectHook2';
-import UseEffectHookDemo from '../Demos/UseEffectHook/UseEffectHook3';
+// import UseEffectHookDemo from '../Demos/UseEffectHook/UseEffectHook3';
 
 function UseEffectHook() {
 	const [markdown, setMarkdown] = useState('');
