@@ -1,7 +1,9 @@
 .App {
 	font-size: 19px;
+	width: 1200px;
+	margin: 10px auto;
 }
 
 a {
-	color: #61dafb;
+	color: #470aee;
 }

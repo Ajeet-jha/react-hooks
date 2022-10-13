@@ -27,4 +27,23 @@ Hooks solve all of the class-related problems listed above. They also enable you
 
 [React Doc](https://reactjs.org/docs/hooks-faq.html#do-hooks-cover-all-use-cases-for-classes)
 
+## Rules of Hooks
+
+Hooks are JavaScript functions, but they impose two additional rules:
+
+- Only call Hooks at the top level. Don’t call Hooks inside loops, conditions, or nested functions.
+- Only call Hooks from React function components. Don’t call Hooks from regular JavaScript functions.
+- Name your custom hooks starting with use (useDataFetcher, for example)
+- You can call other hooks in your custom hooks
+- Hooks don't share state, meaning you can use the same hook that uses useState in two different places, and they'll be isolated from each other.
+
+## Types of hooks ?
+
+[React Doc](https://reactjs.org/docs/hooks-reference.html)
+
+## What is custom hooks?
+
+A custom Hook is a JavaScript function whose name starts with ”use” and that may call other Hooks.
+eg. useFriendStatus
+
 ## [Hooks FAQ] (https://reactjs.org/docs/hooks-faq.html)
