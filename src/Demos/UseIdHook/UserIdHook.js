@@ -1,18 +1,18 @@
 import { useId } from 'react';
 import chalk from 'chalk';
 
-const {log} = console;
+const { log } = console;
 
 function Checkbox() {
 	const id = useId();
 	log(
-		chalk.green('==>>>', `${chalk.underline.bold('useId from Demo')  }<<<== `, id)
+		chalk.green('==>>>', `${chalk.underline.bold('useId from Demo')}<<<== `, id)
 	);
 	const handleCheck = (e) => {
 		log(
 			chalk.bgYellowBright.blueBright(
 				'==>>>',
-				`${chalk.underline.bold('useId from App')  }<<<== `,
+				`${chalk.underline.bold('useId from App')}<<<== `,
 				e.target.id
 			)
 		);
@@ -24,16 +24,16 @@ function Checkbox() {
 				<input id={id} type="checkbox" name="react" onClick={handleCheck} />
 			</label>
 			<div>
-				<label htmlFor={`${id  }-firstName`}>
+				<label htmlFor={`${id}-firstName`}>
 					First Name
 					<div>
-						<input id={`${id  }-firstName`} type="text" />
+						<input id={`${id}-firstName`} type="text" />
 					</div>
 				</label>
-				<label htmlFor={`${id  }-lastName`}>
+				<label htmlFor={`${id}-lastName`}>
 					Last Name
 					<div>
-						<input id={`${id  }-lastName`} type="text" />
+						<input id={`${id}-lastName`} type="text" />
 					</div>
 				</label>
 			</div>
