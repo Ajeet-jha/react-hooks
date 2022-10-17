@@ -25,6 +25,7 @@
 			}
 		],
 		"react/no-unknown-property": 0,
-		"react/jsx-props-no-spreading": "off"
+		"react/jsx-props-no-spreading": "off",
+		"jsx-a11y/label-has-for": 0
 	}
 }

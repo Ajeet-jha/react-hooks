@@ -8,3 +8,5 @@ The general rules of React Hooks also apply to custom Hooks; these include:
 - Don’t call Hooks from regular JavaScript functions
 
 ## Benefits of building a custom React Hook
+
+[Examples](https://usehooks.com/)
