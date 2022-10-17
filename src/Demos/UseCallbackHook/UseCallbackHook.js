@@ -5,7 +5,9 @@ const Todos = memo(({ todos, addTodo }) => {
 	return (
 		<>
 			<h2>My Todos</h2>
-			{todos.map((todo) => <p key={new Date()}>{todo}</p>)}
+			{todos.map((todo) => (
+				<p key={new Date()}>{todo}</p>
+			))}
 			<button onClick={addTodo}>Add Todo</button>
 		</>
 	);
