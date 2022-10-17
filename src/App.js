@@ -14,7 +14,8 @@ import './App.css';
 // import Memo from './Components/Memo';
 // import UseTransitionHook from './Components/UseTransitionHook';
 // import UseDebugValueHook from './Components/UseDebugValue';
-import UseLayoutEffectHook from './Components/UseLayoutEffectHook';
+// import UseLayoutEffectHook from './Components/UseLayoutEffectHook';
+import UseImperativeHandleHook from './Components/UseImperativeHandleHook';
 
 function App() {
 	// const id = useId();
@@ -32,7 +33,8 @@ function App() {
 			{/* <Memo /> */}
 			{/* <UseTransitionHook /> */}
 			{/* <UseDebugValueHook /> */}
-			<UseLayoutEffectHook />
+			{/* <UseLayoutEffectHook /> */}
+			<UseImperativeHandleHook />
 		</div>
 	);
 }
