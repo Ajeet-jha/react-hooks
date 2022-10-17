@@ -10,7 +10,8 @@ import './App.css';
 // import UseRefHook from './Components/UseRefHook';
 // import UserReducerHook from './Components/UserReducerHook';
 // import UserMemoHook from './Components/UseMemoHook';
-import UseCallbackHook from './Components/UseCallbackHook';
+// import UseCallbackHook from './Components/UseCallbackHook';
+import Memo from './Components/Memo';
 
 function App() {
 	// const id = useId();
@@ -24,7 +25,8 @@ function App() {
 			{/* <UseIdHook /> */}
 			{/* <UseStateHook /> */}
 			{/* <UseEffectHook /> */}
-			<UseCallbackHook />
+			{/* <UseCallbackHook /> */}
+			<Memo />
 		</div>
 	);
 }
