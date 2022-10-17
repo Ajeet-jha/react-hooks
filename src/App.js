@@ -15,7 +15,8 @@ import './App.css';
 // import UseTransitionHook from './Components/UseTransitionHook';
 // import UseDebugValueHook from './Components/UseDebugValue';
 // import UseLayoutEffectHook from './Components/UseLayoutEffectHook';
-import UseImperativeHandleHook from './Components/UseImperativeHandleHook';
+// import UseImperativeHandleHook from './Components/UseImperativeHandleHook';
+import UseDeferredValueHook from './Components/UseDeferredValueHook';
 
 function App() {
 	// const id = useId();
@@ -34,7 +35,8 @@ function App() {
 			{/* <UseTransitionHook /> */}
 			{/* <UseDebugValueHook /> */}
 			{/* <UseLayoutEffectHook /> */}
-			<UseImperativeHandleHook />
+			{/* <UseImperativeHandleHook /> */}
+			<UseDeferredValueHook />
 		</div>
 	);
 }
