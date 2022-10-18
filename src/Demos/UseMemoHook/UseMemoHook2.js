@@ -1,4 +1,7 @@
 import { useState, useMemo } from 'react';
+import chalk from 'chalk';
+
+const { log } = console;
 
 const users = [
 	{ id: '1', name: 'Foo' },
@@ -18,14 +21,14 @@ function Filter() {
 	};
 
 	// const filteredUsers = users.filter((user) => {
-	//     console.log("filtering users");
+	//     log(chalk.bgCyan.whiteBright('filtering users'));
 	//     return user.name.toLowerCase().includes(search.toLowerCase());
 	// })
 
 	const filteredUsers = useMemo(
 		() =>
 			users.filter((user) => {
-				console.log('filtering users');
+				log(chalk.bgCyan.whiteBright('filtering users'));
 				return user.name.toLowerCase().includes(search.toLowerCase());
 			}),
 		[search]

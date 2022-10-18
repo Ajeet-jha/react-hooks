@@ -32,7 +32,11 @@ function FilterList({ names }) {
 			<input onChange={changeHandler} value={query} type="text" />
 			{isPending && <div>Wait...</div>}
 			{names.map((name) => (
-				<ListItem key={name} name={name} highlight={highlight} />
+				<ListItem
+					key={name + Math.floor(Math.random() * 100)}
+					name={name}
+					highlight={highlight}
+				/>
 			))}
 		</div>
 	);
