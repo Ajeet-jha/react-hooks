@@ -1,7 +1,10 @@
 import { useState, useMemo } from 'react';
+import chalk from 'chalk';
+
+const { log } = console;
 
 function factorialOf(n) {
-	console.log('factorialOf(n) called!');
+	log(chalk.bgCyan.whiteBright(`factorialOf(${n}) called!`));
 	return n <= 0 ? 1 : n * factorialOf(n - 1);
 }
 

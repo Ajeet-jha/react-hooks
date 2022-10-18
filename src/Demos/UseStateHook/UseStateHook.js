@@ -60,7 +60,7 @@ function UserForm() {
 					/>
 				</div>
 				<div>
-					<button>Submit Contact</button>
+					<button type="submit">Submit Contact</button>
 				</div>
 			</form>
 		</div>
