@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Branchs
+
+- main
+- feature/hooks-intro
+- feature/useId-hook
+- feature/useState-hook
+- feature/useEffect-hook
+- feature/useRef-hook
+- feature/useReducer-hook
+- feature/useMemo-hook
+- feature/useCallback-hook
+- feature/memo
+- feature/useTransition-hook
+- feature/useDebugValue-hook
+- feature/useLayoutEffect-hook
+- feature/useImperativeHandle-hook
+- feature/useDeferredValue-hook
+- feature/custom-hooks
