@@ -8,7 +8,7 @@ import UseEffectHookDemo from '../Demos/UseEffectHook/UseEffectHook';
 // import UseEffectHookDemo from '../Demos/UseEffectHook/UseEffectHook1';
 // import UseEffectHookDemo from '../Demos/UseEffectHook/UseEffectHook2';
 // import UseEffectHookDemo from '../Demos/UseEffectHook/UseEffectHook3';
-
+/* eslint-disable react/no-children-prop */
 function UseEffectHook() {
 	const [markdown, setMarkdown] = useState('');
 	useEffect(() => {
