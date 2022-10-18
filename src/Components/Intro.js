@@ -12,6 +12,7 @@ function Intro() {
 			.then((text) => setMarkdown(text));
 	}, []);
 
+	/* eslint-disable react/no-children-prop */
 	return <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />;
 }
 

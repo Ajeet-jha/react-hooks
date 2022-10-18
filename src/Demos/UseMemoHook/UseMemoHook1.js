@@ -1,7 +1,10 @@
 import { useState, useMemo } from 'react';
+import chalk from 'chalk';
+
+const { log } = console;
 
 const add = (num1, num2) => {
-	console.log('Adding numbers');
+	log(chalk.bgCyan.whiteBright('Adding numbers'));
 	return parseInt(num1, 10) + parseInt(num2, 10);
 };
 
