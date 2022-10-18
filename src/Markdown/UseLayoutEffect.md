@@ -31,7 +31,7 @@ So that looks like:
 
 - If your component is flickering when state is updated – as in, it renders in a partially-ready state first and then immediately re-renders in its final state – that’s a good clue that it’s time to swap in useLayoutEffect.
 
--One other situation you might want to use useLayoutEffect instead of useEffect is if you're updating a value (like a ref) and you want to make sure it's up-to-date before any other code runs.
+- One other situation you might want to use useLayoutEffect instead of useEffect is if you're updating a value (like a ref) and you want to make sure it's up-to-date before any other code runs.
 
 ```
     const ref = React.useRef()

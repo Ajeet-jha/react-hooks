@@ -5,7 +5,7 @@ import remarkGfm from 'remark-gfm';
 import MemoMarkdown from '../Markdown/Memo.md';
 import MemoDemo from '../Demos/Memo/Parent';
 
-function UseIdHook() {
+function UseMemoHook() {
 	const [markdown, setMarkdown] = useState('');
 	useEffect(() => {
 		fetch(MemoMarkdown)
@@ -21,4 +21,4 @@ function UseIdHook() {
 	);
 }
 
-export default UseIdHook;
+export default UseMemoHook;

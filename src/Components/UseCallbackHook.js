@@ -5,7 +5,7 @@ import remarkGfm from 'remark-gfm';
 import UseCallbackMarkdown from '../Markdown/UseCallback.md';
 import UseCallbackHookDemo from '../Demos/UseCallbackHook/UseCallbackHook';
 
-function UseIdHook() {
+function UseCallbackHook() {
 	const [markdown, setMarkdown] = useState('');
 	useEffect(() => {
 		fetch(UseCallbackMarkdown)
@@ -21,4 +21,4 @@ function UseIdHook() {
 	);
 }
 
-export default UseIdHook;
+export default UseCallbackHook;
