@@ -3,8 +3,10 @@
 useRef is one of the standard hooks provided by React. It will return an object that you can use during the whole lifecycle of the component.
 The main use case for the useRef hook is to access a DOM child directly.
 useRef can also be very useful to hold a mutable value across different renders of your component.
-Updating a ref is a side effect so it should be done only inside a useEffect (or useLayoutEffect) or inside an event handler.
-A ref changing value doesn’t trigger a re-render.
+
+_Updating a ref is a side effect so it should be done only inside a useEffect (or useLayoutEffect) or inside an event handler._
+
+`A ref changing value doesn’t trigger a re-render.`
 
 ## useRef vs useState
 
