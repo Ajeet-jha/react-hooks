@@ -3,11 +3,11 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 import UseReducerMarkdown from '../Markdown/UseReducer.md';
-// import UseReducerHookDemo from '../Demos/UseReducerHook/UseReducerHook';
+import UseReducerHookDemo from '../Demos/UseReducerHook/UseReducerHook';
 // import UseReducerHookDemo from '../Demos/UseReducerHook/UseReducerHook1';
-import UseReducerHookDemo from '../Demos/UseReducerHook/UseReducerHook2';
+// import UseReducerHookDemo from '../Demos/UseReducerHook/UseReducerHook2';
 
-function UseRefHook() {
+function UseReducerHook() {
 	const [markdown, setMarkdown] = useState('');
 	useEffect(() => {
 		fetch(UseReducerMarkdown)
@@ -23,4 +23,4 @@ function UseRefHook() {
 	);
 }
 
-export default UseRefHook;
+export default UseReducerHook;
