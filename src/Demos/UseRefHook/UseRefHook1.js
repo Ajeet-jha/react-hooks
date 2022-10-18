@@ -14,7 +14,7 @@ function UseRefHook() {
 	};
 
 	useEffect(() => {
-		log(chalk.bgCyan.whiteBright(`counter changed to: ${  counter.current}`));
+		log(chalk.bgCyan.whiteBright(`counter changed to: ${counter.current}`));
 	}, [counter]); // It is useless to add a ref to a dependency array
 
 	/** Adding a ref to a dependency array (for example the one of a useEffect hook) will not trigger the callback! This is also a very common error. */
