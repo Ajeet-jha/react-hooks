@@ -1,16 +1,16 @@
-import './App.css';
-
-// import Intro from './Components/Intro';
 // import { useId } from 'react';
 // import chalk from 'chalk';
-// import UseIdHook from './Components/UseIdHook';
 // const {log} = console;
+// import Intro from './Components/Intro';
+// import UseIdHook from './Components/UseIdHook';
 // import UseStateHook from './Components/UseStateHook';
 // import UseEffectHook from './Components/UseEffectHook';
 // import UseRefHook from './Components/UseRefHook';
-// import UserReducerHook from './Components/UserReducerHook';
-// import UserMemoHook from './Components/UseMemoHook';
+// import UseReducerHook from './Components/UseReducerHook';
+// import UseMemoHook from './Components/UseMemoHook';
 import UseCallbackHook from './Components/UseCallbackHook';
+
+import './App.css';
 
 function App() {
 	// const id = useId();
@@ -24,6 +24,8 @@ function App() {
 			{/* <UseIdHook /> */}
 			{/* <UseStateHook /> */}
 			{/* <UseEffectHook /> */}
+			{/* <UseReducerHook /> */}
+			{/* <UseMemoHook /> */}
 			<UseCallbackHook />
 		</div>
 	);

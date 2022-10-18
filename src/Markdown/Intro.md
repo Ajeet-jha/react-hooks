@@ -21,7 +21,7 @@ A React class component is a native JavaScript class, so it inherited the issues
 
 ## How Hooks Can Help ?
 
-Hooks solve all of the class-related problems listed above. They also enable you to write cleaner, leaner, and more maintainable code.
+Hooks solve all of the class-related problems listed above. They also enable you to write _cleaner, leaner, and more maintainable code_.
 
 ## Do Hooks cover all use cases for classes?
 
@@ -43,7 +43,7 @@ Hooks are JavaScript functions, but they impose two additional rules:
 
 ## What is custom hooks?
 
-A custom Hook is a JavaScript function whose name starts with ”use” and that may call other Hooks.
+A custom Hook is a JavaScript function whose name starts with `”use”` and that may call other Hooks.
 eg. useFriendStatus
 
 ## [Hooks FAQ] (https://reactjs.org/docs/hooks-faq.html)

@@ -6,7 +6,7 @@ import UseStateMarkdown from '../Markdown/UseState.md';
 // import UseStateHookDemo from '../Demos/UseStateHook/UseStateHook0';
 // import UseStateHookDemo from '../Demos/UseStateHook/UseStateHook1';
 import UseStateHookDemo from '../Demos/UseStateHook/UseStateHook';
-
+/* eslint-disable react/no-children-prop */
 function UseStateHook() {
 	const [markdown, setMarkdown] = useState('');
 	useEffect(() => {

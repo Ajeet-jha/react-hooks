@@ -23,6 +23,8 @@
 			{
 				"extensions": [".js", ".jsx"]
 			}
-		]
+		],
+		"react/no-unknown-property": 0,
+		"react/jsx-props-no-spreading": "off"
 	}
 }
