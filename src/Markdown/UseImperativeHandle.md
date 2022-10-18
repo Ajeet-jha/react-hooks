@@ -10,9 +10,11 @@ Usually when you use `useRef` you are given the instance value of the component 
 useImperativeHandle customizes the instance value that is exposed to parent components when using ref
 
 ```
-    useImperativeHandle(ref, createHandle, [dependencies])
+useImperativeHandle(ref, createHandle, [dependencies])
 ```
 
 `ref`: The ref passed down from the parent component
+
 `createHandle`: The value to be exposed to the parent component
+
 `dependencies`: An array of values that cause the Hook to rerun when changed
