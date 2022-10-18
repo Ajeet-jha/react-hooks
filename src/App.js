@@ -7,7 +7,7 @@
 // import UseEffectHook from './Components/UseEffectHook';
 // import UseRefHook from './Components/UseRefHook';
 // import UseReducerHook from './Components/UseReducerHook';
-import UserMemoHook from './Components/UseMemoHook';
+import UseMemoHook from './Components/UseMemoHook';
 
 import './App.css';
 
@@ -24,7 +24,7 @@ function App() {
 			{/* <UseStateHook /> */}
 			{/* <UseEffectHook /> */}
 			{/* <UseReducerHook /> */}
-			<UserMemoHook />
+			<UseMemoHook />
 		</div>
 	);
 }
