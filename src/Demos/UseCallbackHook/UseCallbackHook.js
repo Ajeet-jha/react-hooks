@@ -5,11 +5,12 @@ const { log } = console;
 
 const Todos = memo(({ todos, addTodo }) => {
 	log(chalk.bgCyan.whiteBright('child render'));
+
 	return (
 		<>
 			<h2>My Todos</h2>
-			{todos.map((todo) => (
-				<p key={new Date()}>{todo}</p>
+			{todos.map(({ id, item }) => (
+				<p key={id}>{item}</p>
 			))}
 			<button onClick={addTodo}>Add Todo</button>
 		</>
@@ -18,14 +19,19 @@ const Todos = memo(({ todos, addTodo }) => {
 
 function Demo() {
 	const [count, setCount] = useState(0);
-	const [todos, setTodos] = useState([]);
+	const [todos, setTodos] = useState([{ id: new Date(), item: 'New Todo' }]);
 
 	const increment = () => {
 		setCount((c) => c + 1);
 	};
+
 	const addTodo = useCallback(() => {
-		setTodos((t) => [...t, 'New Todo']);
-	}, [todos]);
+		const todo = {
+			id: new Date(),
+			item: 'New Todo',
+		};
+		setTodos((t) => [...t, todo]);
+	}, [setTodos]);
 
 	return (
 		<>
