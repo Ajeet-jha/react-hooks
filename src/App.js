@@ -1,5 +1,5 @@
-import './App.css';
 import Intro from './Components/Intro';
+import './App.css';
 
 function App() {
 	return (
