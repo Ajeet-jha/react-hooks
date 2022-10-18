@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function usePosition() {
+function usePosition() {
 	const [position, setPosition] = useState({
 		x: 0,
 		y: 0,
@@ -8,3 +8,5 @@ export default function usePosition() {
 
 	return [position, setPosition];
 }
+
+export default usePosition;

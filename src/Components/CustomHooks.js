@@ -3,10 +3,10 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 import CustomHookMarkdown from '../Markdown/CustomHook.md';
-import CustomHookDemo from '../Demos/CustomHooks';
-// import CustomHookDemo from '../Demos/CustomHooks/CustomFormHook/index';
+// import CustomHookDemo from '../Demos/CustomHooks';
+import CustomHookDemo from '../Demos/CustomHooks/CustomFormHook/index';
 
-function UseIdHook() {
+function UseCustomHook() {
 	const [markdown, setMarkdown] = useState('');
 	useEffect(() => {
 		fetch(CustomHookMarkdown)
@@ -22,4 +22,4 @@ function UseIdHook() {
 	);
 }
 
-export default UseIdHook;
+export default UseCustomHook;

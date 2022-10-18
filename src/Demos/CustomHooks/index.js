@@ -2,12 +2,13 @@ import usePosition from './UsePostion';
 
 function MovingDot() {
 	const [position, setPosition] = usePosition();
+
 	return (
 		<div
 			onPointerMove={(e) => {
 				setPosition({
 					x: e.clientX - 80,
-					y: e.clientY - 360,
+					y: e.clientY - 400,
 				});
 			}}
 			style={{

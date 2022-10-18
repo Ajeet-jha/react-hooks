@@ -1,10 +1,18 @@
 import React from 'react';
+import chalk from 'chalk';
 import useForm from './useForm';
 import validate from './LoginFormValidationRules';
 
+const { log } = console;
+
 function Form() {
 	function login() {
-		console.log('No errors, submit callback called!');
+		log(
+			chalk.green(
+				'==>>>',
+				`${chalk.underline.bold('No errors, submit callback called!')}<<<== `
+			)
+		);
 	}
 
 	const { values, errors, handleChange, handleSubmit } = useForm(

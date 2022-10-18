@@ -18,7 +18,7 @@ const useForm = (callback, validate) => {
 	};
 
 	const handleChange = (event) => {
-		event.persist();
+		event.persist(); // https://www.folkstalk.com/2022/09/event-persist-with-code-examples.html
 		setValues((_values) => ({
 			..._values,
 			[event.target.name]: event.target.value,
