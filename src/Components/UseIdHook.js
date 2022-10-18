@@ -4,7 +4,7 @@ import remarkGfm from 'remark-gfm';
 
 import UseIdMarkdown from '../Markdown/UseId.md';
 import UserIdHookDemo from '../Demos/UseIdHook/UserIdHook';
-
+/* eslint-disable react/no-children-prop */
 function UseIdHook() {
 	const [markdown, setMarkdown] = useState('');
 	useEffect(() => {
