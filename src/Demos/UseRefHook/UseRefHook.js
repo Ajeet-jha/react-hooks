@@ -12,7 +12,7 @@ function UseRefHook() {
 		// get the height of the div element
 		log(
 			chalk.bgCyan.whiteBright(
-				`The height of the div is: + ${divElement.current.offsetHeight}`
+				`The height of the div is: ${divElement.current.offsetHeight}`
 			)
 		);
 	}, []);

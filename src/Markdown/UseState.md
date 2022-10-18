@@ -1,4 +1,4 @@
-### The useId hook takeaways
+### useState
 
 - `useState` is a Hook that allows you to have state variables in functional components.
 - state in a class is always an object, with Hooks, the state can be any type. Each piece of state holds a single value, which can be an object, an array, a boolean, or any other type you can imagine.
@@ -38,4 +38,4 @@ setMessage(previousVal => previousVal + currentVal)
 
 - Unlike this.setState in class components, useState doesn’t merge objects when the state is updated. It replaces them.
 
-![Async useState](../../assets/useState.png)
+[Async useState](https://github.com/Ajeet-jha/react-hooks/blob/feature/useState-hook/assets/useState.png)
