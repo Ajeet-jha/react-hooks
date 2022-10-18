@@ -1,13 +1,10 @@
-import './App.css';
-
-// import Intro from './Components/Intro';
 // import { useId } from 'react';
 // import chalk from 'chalk';
-// import UseIdHook from './Components/UseIdHook';
-
 // const {log} = console;
-
+// import Intro from './Components/Intro';
+// import UseIdHook from './Components/UseIdHook';
 import UseStateHook from './Components/UseStateHook';
+import './App.css';
 
 function App() {
 	// const id = useId();
