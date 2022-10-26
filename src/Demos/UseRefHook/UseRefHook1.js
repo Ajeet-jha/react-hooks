@@ -10,7 +10,7 @@ function UseRefHook() {
 	// increase the counter by one
 	const handleIncreaseCounter = () => {
 		// A ref changing value doesn’t trigger a re-render
-		counter.curent = counter.current + 1;
+		counter.current += 1;
 	};
 
 	useEffect(() => {
