@@ -10,14 +10,26 @@ function UseRefHook() {
 	// increase the counter by one
 	const handleIncreaseCounter = () => {
 		// A ref changing value doesn’t trigger a re-render
-		counter.curent = counter.current + 1;
+		counter.current += 1;
+		log(
+			chalk.bgCyan.whiteBright(
+				`counter changed to: ${counter.current} from handleIncreaseCounter`
+			)
+		);
 	};
 
 	useEffect(() => {
-		log(chalk.bgCyan.whiteBright(`counter changed to: ${counter.current}`));
+		log(
+			chalk.bgCyan.whiteBright(
+				`counter changed to: ${counter.current} from useEffect`
+			)
+		);
 	}, [counter]); // It is useless to add a ref to a dependency array
 
-	/** Adding a ref to a dependency array (for example the one of a useEffect hook) will not trigger the callback! This is also a very common error. */
+	/** Adding a ref to a dependency array (for example the one of a useEffect hook)
+	 * will not trigger the callback!
+	 * This is also a very common error.
+	 */
 
 	return (
 		<div>
